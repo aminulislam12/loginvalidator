@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to right, #43e97b 0%, #38ecf9 100%);
+  transition: 0.5s;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-section {
+  background: rgb(255, 255, 255);
+  width: 500px;
+  height: 350px;
+  border-radius: 5px;
+}
+.form-section h2 {
+  text-align: center;
+  margin-top: 34px;
+  font-size: 37px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.form-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 61%;
+}
+.inputbx input[type="email"],
+.inputbx input[type="password"] {
+  width: 300px;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 8px;
+  border: 1px solid #38ecf9;
+  transition: 0.5s;
+}
+.inputbx input[type="email"]:focus,
+.inputbx input[type="password"]:focus {
+  outline: 1px solid #43e97b;
+  border: none;
+  transition: 0.5s;
+}
+.btn {
+  padding: 10px;
+  width: 211px;
+  margin-top: 20px;
+  transform: translateX(45px);
+  background-color: #c70775;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+span#text {
+  display: block;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.inputbx {
+  position: relative;
+}
+.inputbx > i {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+span#passText {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: 400;
+}
